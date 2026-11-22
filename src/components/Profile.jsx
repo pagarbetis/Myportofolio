@@ -1,4 +1,4 @@
-import profile from "../assets/mypicture.jpeg";
+import profile from "../assets/profile.png";
 import CopyEmailButton from "./CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 
