@@ -1,4 +1,4 @@
-import { FaXTwitter, FaInstagram, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaWhatsapp, FaInstagram, FaDribbble, FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa6";
 import configData from "../data/config.json";
 
 export default function Social() {
@@ -15,11 +15,12 @@ export default function Social() {
           <div className="flex gap-x-1">
             {socialLinks.map((socialLink, index) => {
               const iconMap = {
-                FaXTwitter,
+                FaWhatsapp,
                 FaInstagram,
                 FaDribbble,
                 FaGithub,
                 FaLinkedinIn,
+                FaEnvelope
               };
               const IconComponent = iconMap[socialLink.icon];
 

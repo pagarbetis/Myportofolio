@@ -1,34 +1,112 @@
 {
-  "job": "Frontend Developer",
-  "name": "John Doe",
-  "desc": "The traveler of this path, a web designer in Turkey.",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "job": "Junior Full-Stack Developer",
+  "name": "Andi Angga K.P ",
+  "desc": "Building high-performance web applications with Laravel, PHP, and modern JavaScript from Jakarta.",
+  "aboutDesc": "A Jakarta-based Full-Stack Developer specializing in building robust web applications with Laravel, PHP, and modern JavaScript. Passionate about clean backend architecture, responsive interfaces, and transforming complex logic into seamless digital experiences.",
   "email": "john.doe@example.com",
   "status": "on",
-  "hireMeLink": "https://twitter.com/iamkaanayyildiz",
+  "hireMeLink": "mailto:andiangga75@gmail.com",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
-      "project-name": "Benfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-image-url": "/React.wine.svg",
+      "project-name": "POS PPKD JP",
+      "project-desc": "React • Express.js • MySQL • Prisma • Midtrans",
+      "project-role": "Full-Stack Developer",
+      "project-full-desc": "Aplikasi Point of Sales full-stack untuk manajemen produk, pencatatan transaksi penjualan, dan integrasi pembayaran digital melalui Midtrans. Dibangun menggunakan React di sisi frontend serta Express.js, Prisma ORM, dan MySQL di sisi backend untuk mengelola data transaksi secara terstruktur.",
+      "project-images": [
+        "/pos.png"
+      ],
+      "project-link": "https://github.com/pagarbetis/Belajar-react"
+    },
+    {
+      "project-image-url": "/images.png",
+      "project-name": "CreatorFlow",
+      "project-desc": "Laravel • PostgreSQL • Tailwind CSS • Shadcn UI",
+      "project-role": "Frontend Developer",
+      "project-full-desc": "Antarmuka dan alur kerja manajemen pipeline konten kreator berbasis Laravel dan PostgreSQL dengan tampilan modern menggunakan Tailwind CSS serta komponen bergaya Shadcn UI. Dirancang untuk mempermudah pemantauan status produksi, tugas, dan kolaborasi peran.",
+      "project-images": [
+        "/ccp.png",
+        "/ccp2.png",
+        "/ccp3.png",
+        "/ccp4.png"
+      ],
+      "project-link": "https://github.com/pagarbetis/ccp-frontend"
+    },
+    {
+      "project-image-url": "/images.png",
+      "project-name": "PPKD Sticker E-Commerce",
+      "project-desc": "Laravel • Blade • Bootstrap • MySQL",
+      "project-role": "Full-Stack Developer",
+      "project-full-desc": "Aplikasi toko online cetak stiker berbasis Laravel dan MySQL dengan tampilan responsif menggunakan Blade dan Bootstrap. Mencakup pengelolaan katalog produk, pemesanan, serta alur transaksi e-commerce.",
+      "project-images": [
+        "ppkd (1).png",
+        "ppkd (2).png",
+        "ppkd (3).png",
+        "ppkd (4).png"
+      ],
+      "project-link": "https://github.com/pagarbetis/belajar-laravel"
+    },
+    {
+      "project-image-url": "/React.wine.svg",
+      "project-name": "Dicoding Story App",
+      "project-desc": "JavaScript • Webpack • PWA • IndexedDB • Leaflet",
+      "project-role": "Front-End Developer",
+      "project-full-desc": "Aplikasi Progressive Web App (PWA) berbasis Vanilla JavaScript dan Webpack 5 dengan dukungan offline-first melalui Workbox serta penyimpanan lokal terstruktur menggunakan IndexedDB (idb). Dilengkapi visualisasi peta interaktif Leaflet.js dan komponen antarmuka Bootstrap 5.",
+      "project-images": [
+        "/cerita1.png",
+        "/cerita2.png"
+      ],
+      "project-link": "https://github.com/pagarbetis/Cerita-Rakyat"
+    },
+    {
+      "project-image-url": "/React.wine.svg",
+      "project-name": "Within the Blur",
+      "project-desc": "React 19 • Fastify • Prisma • MySQL • Tailwind CSS",
+      "project-role": "Full-Stack Developer",
+      "project-full-desc": "Aplikasi web full-stack yang menggabungkan antarmuka React 19 dengan REST API Fastify, Prisma ORM, dan MySQL. Dilengkapi autentikasi JWT dan cookie, validasi form Zod, grafik Recharts, animasi Framer Motion, serta migrasi database otomatis saat startup.",
+      "project-images": [
+        "/whithin.png",
+        "/whithin2.png",
+        "/whithin3.png",
+        "/whithin4.png"
+      ],
+      "project-link": "https://withintheblur.my.id/"
+    },
+    {
+      "project-image-url": "/images.png",
+      "project-name": "Social App",
+      "project-desc": "Laravel • MySQL • Tailwind CSS • Alpine.js • Pusher",
+      "project-role": "Full-Stack Developer",
+      "project-full-desc": "Aplikasi web sosial media interaktif berbasis Laravel yang mendukung pembaruan konten dan interaksi real-time menggunakan Laravel Echo dan Pusher. Dilengkapi antarmuka responsif berbasis Tailwind CSS dan Bootstrap, interaktivitas ringan dengan Alpine.js, serta emoji picker untuk postingan dan komentar.",
+      "project-images": [
+        "/sosial1.png",
+        "/sosial2.png",
+        "/sosial3.png",
+        "/sosial4.png"
+      ],
+      "project-link": "https://github.com/pagarbetis/Social-media"
     }
   ],
   "social": [
     {
-      "icon": "FaXTwitter",
-      "link": "https://x.com"
+      "icon": "FaWhatsapp",
+      "link": "https://wa.me/6289676249961"
     },
     {
       "icon": "FaInstagram",
-      "link": "https://instagram.com"
+      "link": "https://www.instagram.com/andiangga56?vrfl=OXExd3ZrN3Z0aDk2"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com"
+      "link": "https://github.com/pagarbetis"
     },
     {
       "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com"
+      "link": "https://www.linkedin.com/in/andi-angga-krismona-putra-b935ab293?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "icon": "FaEnvelope",
+      "link": "mailto:andiangga75@gmail.com"
     }
   ]
 }
