@@ -43,31 +43,33 @@ export default function ExperiencePage() {
   ];
 
   return (
-    <div className="flex flex-col gap-y-4 py-4 px-2">
+    <div className="flex flex-col gap-y-4 py-4 px-2 w-full max-w-full min-w-0 overflow-x-hidden">
       {/* Training & Certifications */}
-      <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 gap-y-4">
-        <div className="font-medium text-lg flex items-center gap-x-2">
-          <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-          Training & Certifications
+      <div className="flex flex-col bg-gray-100 rounded-lg px-4 sm:px-5 py-5 gap-y-4 w-full max-w-full min-w-0">
+        <div className="font-medium text-lg flex items-center gap-x-2 min-w-0">
+          <div className="w-1.5 h-1.5 bg-gray-400 rounded-full shrink-0"></div>
+          <span className="break-words">Training & Certifications</span>
         </div>
 
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 w-full max-w-full min-w-0">
           {trainingsAndCerts.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-lg px-5 py-4 border border-gray-200 drop-shadow-sm flex flex-col gap-y-3"
+              className="bg-white rounded-lg px-4 sm:px-5 py-4 border border-gray-200 drop-shadow-sm flex flex-col gap-y-3 w-full max-w-full min-w-0"
             >
-              <div className="flex flex-col gap-y-1">
-                <div className="flex items-center justify-between gap-x-2">
-                  <h2 className="font-medium text-base text-gray-900">
+              <div className="flex flex-col gap-y-1 min-w-0">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-x-3 min-w-0">
+                  <h2 className="font-medium text-base text-gray-900 min-w-0 break-words">
                     {item.title}
                   </h2>
                   <span className="text-xs text-gray-500 shrink-0">
                     {item.meta}
                   </span>
                 </div>
-                <p className="text-xs font-medium text-gray-500">{item.org}</p>
-                <p className="text-sm text-gray-600 mt-1 leading-relaxed">
+                <p className="text-xs font-medium text-gray-500 break-words">
+                  {item.org}
+                </p>
+                <p className="text-sm text-gray-600 mt-1 leading-relaxed break-words">
                   {item.desc}
                 </p>
               </div>
@@ -75,7 +77,7 @@ export default function ExperiencePage() {
               {/* Gambar Sertifikat (bisa 1 atau lebih) */}
               {item.images && item.images.length > 0 && (
                 <div
-                  className={`grid gap-3 pt-1 ${
+                  className={`grid gap-3 pt-1 w-full min-w-0 ${
                     item.images.length === 1
                       ? "grid-cols-1"
                       : "grid-cols-1 sm:grid-cols-2"
@@ -86,7 +88,7 @@ export default function ExperiencePage() {
                       key={imgIdx}
                       type="button"
                       onClick={() => setSelectedImage(imgSrc)}
-                      className="group relative rounded-lg overflow-hidden border border-gray-200 bg-gray-50 aspect-[16/11] text-left cursor-zoom-in"
+                      className="group relative rounded-lg overflow-hidden border border-gray-200 bg-gray-50 aspect-[16/11] w-full min-w-0 text-left cursor-zoom-in"
                     >
                       <img
                         src={imgSrc}
@@ -106,28 +108,30 @@ export default function ExperiencePage() {
       </div>
 
       {/* Work Experience */}
-      <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 gap-y-4">
-        <div className="font-medium text-lg flex items-center gap-x-2">
-          <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-          Work Experience
+      <div className="flex flex-col bg-gray-100 rounded-lg px-4 sm:px-5 py-5 gap-y-4 w-full max-w-full min-w-0">
+        <div className="font-medium text-lg flex items-center gap-x-2 min-w-0">
+          <div className="w-1.5 h-1.5 bg-gray-400 rounded-full shrink-0"></div>
+          <span className="break-words">Work Experience</span>
         </div>
 
-        <div className="flex flex-col gap-y-3">
+        <div className="flex flex-col gap-y-3 w-full max-w-full min-w-0">
           {workExperiences.map((exp, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-lg px-5 py-4 border border-gray-200 drop-shadow-sm flex flex-col gap-y-1"
+              className="bg-white rounded-lg px-4 sm:px-5 py-4 border border-gray-200 drop-shadow-sm flex flex-col gap-y-1 w-full max-w-full min-w-0"
             >
-              <div className="flex items-center justify-between gap-x-2">
-                <h2 className="font-medium text-base text-gray-900">
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-x-3 min-w-0">
+                <h2 className="font-medium text-base text-gray-900 min-w-0 break-words">
                   {exp.role}
                 </h2>
                 <span className="text-xs text-gray-500 shrink-0">
                   {exp.meta}
                 </span>
               </div>
-              <p className="text-xs font-medium text-gray-500">{exp.org}</p>
-              <p className="text-sm text-gray-600 mt-1 leading-relaxed">
+              <p className="text-xs font-medium text-gray-500 break-words">
+                {exp.org}
+              </p>
+              <p className="text-sm text-gray-600 mt-1 leading-relaxed break-words">
                 {exp.desc}
               </p>
             </div>
