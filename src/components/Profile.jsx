@@ -1,11 +1,11 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/mypicture.jpeg";
 import CopyEmailButton from "./CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 
 export default function Profile() {
   const configData = getConfigData();
 
-  const workStatusTextClass = configData.status == 'on' ?  "bg-[#d0fadf] text-[#109d5c] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium" : "bg-[#ff9d9d] text-[#f74d4d] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium"
+  const workStatusTextClass = configData.status == 'on' ? "bg-[#d0fadf] text-[#109d5c] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium" : "bg-[#ff9d9d] text-[#f74d4d] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium"
   const workStatusClass = configData.status == "on" ? "w-1.5 h-1.5 bg-[#109d5c] rounded-full" : "w-1.5 h-1.5 bg-[#f74d4d] rounded-full"
   const workStatusText = configData.status == "on" ? "avaılable for work" : "busy"
 
