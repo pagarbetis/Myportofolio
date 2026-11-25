@@ -36,7 +36,7 @@ export default function ExperiencePage() {
     },
     {
       role: "Operational Driver & Office Boy",
-      org: "Previous Operational Roles",
+      org: "PT Semesta Arus Teknologi",
       meta: "Operations & Logistics",
       desc: "Menjalankan tugas operasional lapangan dan dukungan kantor dengan ketepatan waktu, tanggung jawab tinggi, serta koordinasi yang andal.",
     },
@@ -77,11 +77,10 @@ export default function ExperiencePage() {
               {/* Gambar Sertifikat (bisa 1 atau lebih) */}
               {item.images && item.images.length > 0 && (
                 <div
-                  className={`grid gap-3 pt-1 w-full min-w-0 ${
-                    item.images.length === 1
+                  className={`grid gap-3 pt-1 w-full min-w-0 ${item.images.length === 1
                       ? "grid-cols-1"
                       : "grid-cols-1 sm:grid-cols-2"
-                  }`}
+                    }`}
                 >
                   {item.images.map((imgSrc, imgIdx) => (
                     <button
