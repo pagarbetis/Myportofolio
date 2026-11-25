@@ -14,9 +14,12 @@
       "project-role": "Full-Stack Developer",
       "project-full-desc": "Aplikasi Point of Sales full-stack untuk manajemen produk, pencatatan transaksi penjualan, dan integrasi pembayaran digital melalui Midtrans. Dibangun menggunakan React di sisi frontend serta Express.js, Prisma ORM, dan MySQL di sisi backend untuk mengelola data transaksi secara terstruktur.",
       "project-images": [
-        "/pos.png"
+        "/pos.png",
+        "/pos2.png",
+        "/pos3.png",
+        "/pos4.png"
       ],
-      "project-link": "https://github.com/pagarbetis/Belajar-react"
+      "project-link": "https://warung-madara-fe.vercel.app"
     },
     {
       "project-image-url": "/images.png",
